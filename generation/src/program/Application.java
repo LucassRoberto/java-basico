@@ -30,7 +30,7 @@ public class Application {
 		
 		mediaSalario = totalSalario/20.0;    //media salarial 
 		mediaFilhos = numFilhos/20.0;    //media de filhos
-		percentual = (cont/3.0)*100.00;
+		percentual = (cont/20.0)*100.00;
 		
 		
 		System.out.printf("A média do salário da população é: %.2f%n", mediaSalario);
