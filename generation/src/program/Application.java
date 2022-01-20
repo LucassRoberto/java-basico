@@ -13,7 +13,7 @@ public class Application {
 		int salario, filho, totalSalario = 0, numFilhos = 0,maior = 0,cont = 0;
 		double mediaSalario, mediaFilhos, percentual;
 
-		for (int i=0; i<3; i++) {	  
+		for (int i=0; i<20; i++) {	  
 			System.out.print("Digite um salário: ");
 			salario = sc.nextInt();    //entrar com o valor do salário
 			totalSalario += salario;  //guardar o valor dos salários para calcular a média
@@ -28,8 +28,8 @@ public class Application {
 			numFilhos += filho;	
 		}
 		
-		mediaSalario = totalSalario/3.0;    //media salarial 
-		mediaFilhos = numFilhos/3.0;    //media de filhos
+		mediaSalario = totalSalario/20.0;    //media salarial 
+		mediaFilhos = numFilhos/20.0;    //media de filhos
 		percentual = (cont/3.0)*100.00;
 		
 		
